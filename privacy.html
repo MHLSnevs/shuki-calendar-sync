@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shuki Calendar Sync – Privacy</title>
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1f; --muted: #5f6368; --accent: #3b6fd8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141416; --fg: #ececee; --muted: #a0a3a8; --accent: #8ab0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8em; margin: 0 0 8px; }
+  h2 { font-size: 1.15em; margin: 28px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="muted">Shuki Calendar Sync · last updated October 1, 2026</p>
+
+  <h2>Who uses it</h2>
+  <p>Shuki Calendar Sync is a personal tool. Its only user is its author, signed in with the author's own Google account.</p>
+
+  <h2>What it accesses</h2>
+  <ul>
+    <li>To-do notes on the author's own computer.</li>
+    <li>In Google Calendar, only the "Shuki To-Dos" calendar it created itself. Google's permission for this tool (calendar.app.created) does not allow it to see or change any other calendar.</li>
+  </ul>
+
+  <h2>What it does with that data</h2>
+  <p>It creates, updates and deletes events in the "Shuki To-Dos" calendar so they match the to-dos. That is all it does with the data.</p>
+
+  <h2>What it keeps</h2>
+  <p>A small file on the author's computer records which event belongs to which to-do, along with the Google sign-in that lets the nightly run work. Nothing is stored anywhere else.</p>
+
+  <h2>Sharing</h2>
+  <p>No data is sold, shared, or sent anywhere except the author's own Google Calendar. There are no analytics, ads, or third parties.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be withdrawn at any time from the Google account's "Third-party apps and services" page. Deleting the "Shuki To-Dos" calendar removes every event the tool made.</p>
+
+  <p><a href="index.html">Back to Shuki Calendar Sync</a></p>
+</main>
+</body>
+</html>
